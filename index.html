@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BODY SHAPE</title>
+    
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+    .left{
+        display: inline-block;
+        
+        
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .left img{
+        width: 140px;
+    }
+    .left div{
+         text-align: center;
+         line-height: 22px;
+         font-size: 26px;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none; 
+        padding: 34px 24px;
+
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 16px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(68, 64, 64);
+    }
+    .container{
+        border: 3px solid white;
+        margin: 226px 80px;
+        padding: 35px 74px;
+        width: 28%;
+        border-radius: 30px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 510px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 11px auto; 
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    #btn{
+        text-align: center;
+        margin: auto;
+        width: 23%;
+        margin-left: 40%;
+    }
+</style>
+<body>
+    <header class="header">
+    
+    <div class="left">
+        <img src="img/logo.png" alt="">
+        <div>
+            BODY SHAPE
+        </div>
+
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Training</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <a href="tel:996217246">
+        <button class="btn">Call us</button></a>
+        <a href="mailto:puneethgps1109@gmail.com">
+        <button class="btn">Email us</button></a>
+        
+
+    </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Chennai now</h1>
+        
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div>
+            <button id="btn" onclick="func()">Submit</button>
+        </form>
+        
+    </div>
+</body>
+<script type="text/javascript">
+    function func()
+    {
+        window.open("https://www.facebook.com","_self");
+    }
+
+</script>
+
+</html>
