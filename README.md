@@ -1,2 +1,2 @@
 # gym.github.io
-Gym website for beginners
+Developed this to understand the basics of HTML & CSS.
